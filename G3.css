@@ -1,0 +1,12 @@
+.jumbotron{
+margin-top:50px;
+}
+
+body{
+  margin:2rem;
+  background-color: #E1DEEB;
+}
+
+#glcarousel, #glcard{
+  box-shadow: 1px 1px 2px 2px black;
+}
