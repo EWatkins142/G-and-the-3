@@ -23,7 +23,7 @@
        <span class="navbar-toggler-icon"></span>
            </button>
            <a class="navbar-brand">E Watkins</a>
-           <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+           <div class="collapse navbar-collapse">
                <ul class="navbar-nav mr-auto">
                  <li class="nav-item active">
                      <a class="nav-link" href="index.html">Listen to Goldie</a>
@@ -37,54 +37,74 @@
 
 <div class='container-fluid'>
     <div class="jumbotron">
-      <h1>The Story of G and the Three Bears</h1>
+      <h1>The Story of Goldie and the Three Bears</h1>
     </div>
 </div><!--end of container-->
 
-<div class='container'>
+<div class='container pb-5'>
   <div class="row">
     <div class="col-md-4">
-      <div class="card h-100">
-       <img src="G3pics/babybear.jpg" class="card-img-top" alt="baby bear">
+      <div class="card h-60">
+       <img src="G3pics/babybear.jpg" id="babybear" class="card-img-top collapse" alt="baby bear">
         <div class="card-body">
           <h5 class="card-title">Baby Bear</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <p class="card-text">Picture of Baby</p>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#babybear" aria-expanded="true" aria-controls="babybear">
+              Click to See Baby's Photo
+            </button>
        </div>
      </div>
  </div>
  <div class="col-md-4">
-   <div class="card h-100">
-    <img src="G3pics/papabear.jpg" class="card-img-top" alt="papa bear">
+   <div class="card h-60">
+    <img src="G3pics/papabear.jpg" id="papabear" class="card-img-top collapse" alt="papa bear">
      <div class="card-body">
        <h5 class="card-title">Papa Bear</h5>
-         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-           <a href="#" class="btn btn-primary">Go somewhere</a>
+         <p class="card-text">Picture of Papa</p>
+         <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#papabear" aria-expanded="true" aria-controls="papabear">
+           Click to See Father's Photo
+         </button>
     </div>
   </div>
 </div>
 <div class="col-md-4">
-  <div class="card h-100">
-   <img src="G3pics/muthabear.png" class="card-img-top" alt="mamabear">
+  <div class="card h-60">
+   <img src="G3pics/muthabear.png" id="mamabear" class="card-img-top collapse" alt="mamabear">
     <div class="card-body">
       <h5 class="card-title">Mama Bear</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+        <p class="card-text">Picture of Mama</p>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#mamabear" aria-expanded="true" aria-controls="mamabear">
+          Click to See Mother's Photo
+        </button>
       </div>
     </div>
    </div>
   </div>
 </div>
-<div class="row">
+
+<div id='bears-story' class="row pb-5">
     <div class="col-md-4">
-      One of 2 columns
+
     </div>
     <div class="col-md-8">
-      One of 2 columns
+      <h5 class='text text-secondary display-7'>How dare that little thief come into a family's home uninvited, sit on their furniture, lie on their beds, and eat their food! Mr. Bear told us that when they returned from a walk their home had been ransacked and their kitchen violated. According to this unfortunate family, when they found Ms. Locks in the bed of the youngest bear, Baby, she terrified them in her haste to exit the dwelling. Mrs. Bear told us that both Baby and herself are just beside themselves with stress from the incident, and Baby feels the need to have one of the parents to check his room before he enters! Scandalous!</h7>
     </div>
  </div>
-
 </div><!--end of container-->
+
+
+  <!-- Footer -->
+<footer class="page-footer font-small gray">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3 bg bg-dark text text-light">
+    <h4>E Watkins</h4>
+      </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
 
 
 </div><!--end of wrapper-->
